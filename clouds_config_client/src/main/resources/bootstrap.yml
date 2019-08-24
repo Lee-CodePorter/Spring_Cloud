@@ -1,0 +1,13 @@
+spring:
+  cloud:
+    config:
+      discovery:
+        enabled: true
+        service-id:
+      uri: http://leepc:8888 #默认配置中心地址
+  application:
+    name: config-client-lee
+#eureka:
+#  client:
+#    service-url:
+#      defaultZone: https://eureka.leesh.top/eureka

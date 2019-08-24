@@ -1,0 +1,12 @@
+server:
+  port: 8181
+eureka:
+  client:
+    service-url:
+      defaultZone: https://eureka.leesh.top/eureka
+spring:
+  application:
+    name: feign-client-lee
+feign:
+  hystrix:
+    enabled: true

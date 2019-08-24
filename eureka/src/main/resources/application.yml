@@ -1,0 +1,20 @@
+server:
+  port: ${APP_PORT:8761}
+
+spring:
+  application:
+    name: eureka-lee
+#    prefer-ip-address: true
+eureka:
+  client:
+    service-url:
+      defaultZone: ${APP_REGEISTERS_URL:http://localhost:8761/eureka}
+  instance:
+    instance-id: ${spring.application.name}:${HOST_NAME:localhost}:${server.port}
+    hostname: ${APP_HOST_NAME:localhost}
+  server:
+    enable-self-preservation: false
+    eviction-interval-timer-in-ms: 1000
+#    fetch-registry: false
+#    register-with-eureka: false
+#备注

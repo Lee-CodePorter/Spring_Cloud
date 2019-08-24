@@ -1,0 +1,1 @@
+docker run --name eureka1 -p 8761:8761 -e APP_PORT=8761 -e APP_HOST_NAME=LeePC -e HONT_NAME=LeePC -e  APP_REGEISTERS_URL=https://eureka.leesh.top/eureka,http://www.sq7.top:8764/eureka,http://www.xingdaqi.xyz:8761/eureka -d  eureka-server:1.0

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="clouds_config_server" />
+        <module name="feign-client" />
+        <module name="eureka-client" />
+        <module name="eureka" />
+        <module name="ribbon" />
+        <module name="user-service" />
+        <module name="clouds_config_client" />
+        <module name="getaway" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="clouds_config_client" target="1.8" />
+      <module name="clouds_config_server" target="1.8" />
+      <module name="de" target="1.8" />
+      <module name="demo" target="1.8" />
+      <module name="eureka" target="1.8" />
+      <module name="eureka-client" target="1.8" />
+      <module name="feign-client" target="1.8" />
+      <module name="getaway" target="1.8" />
+      <module name="ribbon" target="1.8" />
+      <module name="user-service" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="clouds_config_client" options="-parameters" />
+      <module name="clouds_config_server" options="-parameters" />
+      <module name="de" options="-parameters" />
+      <module name="demo" options="-parameters" />
+      <module name="eureka" options="-parameters" />
+      <module name="eureka-client" options="-parameters" />
+      <module name="feign-client" options="-parameters" />
+      <module name="getaway" options="-parameters" />
+      <module name="ribbon" options="-parameters" />
+      <module name="user-service" options="-parameters" />
+    </option>
+  </component>
+</project>

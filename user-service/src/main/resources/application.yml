@@ -1,0 +1,16 @@
+server:
+  port: 80
+eureka:
+  client:
+    service-url:
+#      defaultZone: http://192.168.55.129:8761/eureka,http://127.0.0.1:8762/eureka,http://leepc:8763/eureka
+       defaultZone: http://www.leesh.top:8761/eureka
+  instance:
+    hostname: LeePC
+
+spring:
+  cloud:
+    inetutils:
+      timeout-seconds: 10
+  application:
+    name: user-service-lee

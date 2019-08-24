@@ -1,0 +1,20 @@
+spring:
+  cloud:
+    inetutils:
+      timeout-seconds: 10
+  application:
+    name: ribbon-client-lee
+eureka:
+  client:
+    service-url:
+      #      defaultZone: http://127.0.0.1:8761/eureka
+      defaultZone: http://www.leesh.top:8761/eureka
+    healthcheck:
+      enabled: true
+  instance:
+    lease-renewal-interval-in-seconds: 10
+    lease-expiration-duration-in-seconds: 10
+    hostname: LeePC
+
+server:
+  port: 8081

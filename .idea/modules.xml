@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/clouds_config_client/clouds_config_client.iml" filepath="$PROJECT_DIR$/clouds_config_client/clouds_config_client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/clouds_config_server/clouds_config_server.iml" filepath="$PROJECT_DIR$/clouds_config_server/clouds_config_server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka/eureka.iml" filepath="$PROJECT_DIR$/eureka/eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-client/eureka-client.iml" filepath="$PROJECT_DIR$/eureka-client/eureka-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/feign-client/feign-client.iml" filepath="$PROJECT_DIR$/feign-client/feign-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/getaway/getaway.iml" filepath="$PROJECT_DIR$/getaway/getaway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ribbon/ribbon.iml" filepath="$PROJECT_DIR$/ribbon/ribbon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/user-service/user-service.iml" filepath="$PROJECT_DIR$/user-service/user-service.iml" />
+    </modules>
+  </component>
+</project>

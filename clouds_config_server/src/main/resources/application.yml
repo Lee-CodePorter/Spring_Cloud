@@ -1,0 +1,25 @@
+eureka:
+  client:
+    service-url:
+      #      defaultZone: http://127.0.0.1:8761/eureka
+      #       defaultZone: http://www.leesh.top:8761/eureka
+      defaultZone: https://eureka.leesh.top/eureka
+    healthcheck:
+      enabled: true
+  instance:
+    lease-renewal-interval-in-seconds: 10
+    lease-expiration-duration-in-seconds: 10
+    hostname: LeePC
+spring:
+  application:
+    name: clouds-config-server-lee
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/Lee-CodePorter/clouds_config.git
+          username: 272381529@qq.com
+          password: 2815lishuhan.
+          search-paths: /config
+server:
+  port: 8888
